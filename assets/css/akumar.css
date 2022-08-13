@@ -1,0 +1,12 @@
+.navigation_gradient{
+    width:100%;
+    background: linear-gradient(45deg,  #d4894b,  rgb(243, 128, 20),  rgb(238, 238, 189), rgb(165, 173, 218),rgb(49, 196, 33), rgb(93, 216, 68), rgb(135, 240, 143));
+    background-size: 700% 100%;
+    animation: gradient 15s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
